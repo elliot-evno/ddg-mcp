@@ -7,7 +7,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 COPY . .
-
+ 
 # Install dependencies 
 RUN pip install -r requirements.txt && pip install .
  
