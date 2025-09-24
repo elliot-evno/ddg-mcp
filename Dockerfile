@@ -8,7 +8,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 COPY . .
 
-# Install dependencies
+# Install dependencies 
 RUN pip install -r requirements.txt && pip install .
  
 # Expose port
