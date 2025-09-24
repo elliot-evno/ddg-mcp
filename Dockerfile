@@ -13,6 +13,6 @@ RUN pip install -r requirements.txt && pip install .
  
 # Expose port
 EXPOSE 8080
-
+ 
 # Start the server
 CMD ["sh", "-c", "ddg_mcp-mcp --transport streamable-http --host 0.0.0.0 --port ${PORT}"]
